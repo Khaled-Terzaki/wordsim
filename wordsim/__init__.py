@@ -1,5 +1,4 @@
 class wordSim:
-    best = dict(word='None', word_match='None', status='None', score=0.0)
     def __init__(self):
         pass
     def train(self, reference_list:list[str]):
@@ -47,7 +46,7 @@ class wordSim:
         self._best = best
         return best   
 
-    def get_best():
+    def get_best(self):
         return self._best
 
 class Counter:
