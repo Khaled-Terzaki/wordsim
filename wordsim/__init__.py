@@ -26,6 +26,7 @@ class wordSim:
         for index, element in enumerate(self._processed_ref_list):
             if word == element:
                 exact_match = dict(word=word, word_match=self.reference_list[index], status='successful', score=1.0)
+                self._best = exact_match
                 return exact_match # return the original matching word if similarity is exact.
             
             sim = Similarity(word, element)
