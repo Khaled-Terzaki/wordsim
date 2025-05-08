@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='wordsim',  # Replace with your package name
-    version='0.1.1',  # Initial version number
+    version='0.1.2',  # Initial version number
     packages=find_packages(),  # Automatically find all package subdirectories
     install_requires=[
         # List any dependencies your package needs, e.g.,
